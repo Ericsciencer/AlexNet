@@ -41,6 +41,8 @@ AlexNet's core architecture is an **8-layer end-to-end deep convolutional neural
 
 - **Classification Output Module (3 Fully Connected Layers)**: First, the feature map output by the convolution is flattened into a one-dimensional vector through flattening. The first two fully connected layers are 4096-dimensional outputs, and ReLU activation and Dropout (random drop rate of 0.5) are used to suppress overfitting and complete the filtering and mapping of high-dimensional features. The last fully connected layer is the output layer, and the dimension matches the number of categories in the classification task (1000 dimensions for the ImageNet task in the original paper), outputting the prediction scores for each category.
 <img width="1115" height="320" alt="image" src="https://github.com/user-attachments/assets/2cf22eed-0dfd-4fe6-aa0e-f664fdb3b021" />
+<img width="495" height="710" alt="image" src="https://github.com/user-attachments/assets/879eb220-786e-4e1c-b4d1-30695ee02f60" />
+
 
 **Note:** We use the CIFAR-10 dataset, which is a 10-class dataset. Unlike the original paper, the image size of CIFAR-10 (32×32) is much smaller than the 227×227 in the original paper. We will make minor adaptations to the network structure (mainly reducing the convolution kernels and stride), but the core architecture (5 convolutions + 3 fully connected layers + ReLU + Dropout) will be completely retained.
 
