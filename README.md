@@ -3,6 +3,7 @@
 [中文简介](#简介) | [English](#Introduction)
 
 ### 结果 | Result
+<img width="826" height="636" alt="image" src="https://github.com/user-attachments/assets/70edb93e-efe0-4a1b-966d-2fff7551a952" />
 
 
 
